@@ -18,7 +18,7 @@ public class TestCaseGmail {
 	@Before
 	public void setUp() throws Exception {
 		System.setProperty("webdriver.gecko.driver",
-				"D:\\Documentos\\Jefry\\EAM\\Semestre_8\\Ing_Software3\\geckodriver.exe");
+				"C:\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		baseUrl = "https://www.google.com.co/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

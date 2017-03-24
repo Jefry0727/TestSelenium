@@ -1,21 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSelenium.co.edu.eam.model.TestCaseGmail
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.642 sec <<< FAILURE!
-testCaseGmail(TestSelenium.co.edu.eam.model.TestCaseGmail)  Time elapsed: 9.642 sec  <<< ERROR!
-org.openqa.selenium.WebDriverException: An unknown error has occurred
-Build info: version: '3.3.0', revision: 'b526bd5b41', time: '2017-03-07 19:26:04 +0000'
-System info: host: 'MARCELA-PC', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.629 sec <<< FAILURE!
+testCaseGmail(TestSelenium.co.edu.eam.model.TestCaseGmail)  Time elapsed: 10.628 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: The element reference is stale. Either the element is no longer attached to the DOM or the page has been refreshed.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DESKTOP-VIRQCT0', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Marcela\AppData\Local\Temp\rust_mozprofile.P7P77PKPQ5En, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=10.0, moz:processID=11284, browserName=firefox, platformName=windows_nt}]
-Session ID: dac3bdde-a4a1-422f-8c20-781ef7a688c3
+Capabilities [{moz:profile=C:\Users\Jefry\AppData\Local\Temp\rust_mozprofile.P11XDqD3elRD, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=10.0, moz:processID=7492, browserName=firefox, platformName=windows_nt}]
+Session ID: 034db083-64dd-4db6-a073-752ba1dc5bf8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
